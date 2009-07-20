@@ -1,3 +1,39 @@
+/*
+
+Get Gravatar v1.0
+Copyright © 2009 Josh Pyles / Pixelmatrix Design LLC
+http://pixelmatrixdesign.com
+
+Requires jQuery 1.3 or newer
+
+Thanks to Tim Van Damme for the inspiration and the pretty demo page
+
+License:
+MIT License - http://www.opensource.org/licenses/mit-license.php
+
+Usage:
+
+$("input #email-addresss").getGravatar();
+
+Or you can specify some custom options:
+
+$("input #email-address").getGravatar({
+	url: '/includes/get-gravatar.php',
+	fallback: 'http://mysite.com/images/default.png',
+	avatarSize: 128,
+	avatarContainer: "#gravatar-preview",
+	start: function(){
+		alert("starting!");
+	},
+	stop: function(){
+		alert("stopping!");
+	}
+});
+
+Enjoy!
+
+*/
+
 (function($) {
   $.fn.getGravatar = function(options) {
     //debug(this);
