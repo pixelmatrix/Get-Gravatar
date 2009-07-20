@@ -13,11 +13,11 @@ MIT License - http://www.opensource.org/licenses/mit-license.php
 
 Usage:
 
-$("input #email-addresss").getGravatar();
+$("input#email-addresss").getGravatar();
 
 Or you can specify some custom options:
 
-$("input #email-address").getGravatar({
+$("input#email-address").getGravatar({
 	url: '/includes/get-gravatar.php',
 	fallback: 'http://mysite.com/images/default.png',
 	avatarSize: 128,
