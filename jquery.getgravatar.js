@@ -1,6 +1,6 @@
 /*
 
-Get Gravatar v1.1
+Get Gravatar v1.2
 Copyright © 2009 Josh Pyles / Pixelmatrix Design LLC
 http://pixelmatrixdesign.com
 
