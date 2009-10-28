@@ -21,7 +21,6 @@ $("input#email-addresss").getGravatar();
 Or you can specify some custom options:
 
 $("input#email-address").getGravatar({
-	url: '/includes/get-gravatar.php',
 	fallback: 'http://mysite.com/images/default.png',
 	avatarSize: 128,
 	avatarContainer: "#gravatar-preview",
@@ -325,7 +324,6 @@ Enjoy!
   // plugin defaults
   //
   $.fn.getGravatar.defaults = {
-   	url: 'get-gravatar.php',
     fallback: '',
 		avatarSize: 50,
 		avatarContainer: '#gravatar',
